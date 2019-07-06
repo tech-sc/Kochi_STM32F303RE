@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1703184830</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\STM32F303RE.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f3xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f3xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\stm32f3xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32F303RE.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f3xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\stm32f3xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f3xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\systemstm32f3xx.pbi</file>
+      <file>$PROJ_DIR$\startup_stm32f303xe.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f303xe.o</file>
+      <file>$PROJ_DIR$\systemstm32f3xx.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\systemstm32f3xx.o</file>
+      <file>$PROJ_DIR$\..\..\Downloads\ARM.CMSIS.5.5.1.pack</file>
+      <file>$TOOLKIT_DIR$\doc\infocenter\index.JPN.html</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\stm32f3xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm32f3xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_stm32f303xe.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\systemstm32f3xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
