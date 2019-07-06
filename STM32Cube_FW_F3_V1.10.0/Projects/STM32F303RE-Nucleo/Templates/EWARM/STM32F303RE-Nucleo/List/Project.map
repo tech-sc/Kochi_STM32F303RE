@@ -1,0 +1,355 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.3.10732/W32 for ARM                01/Jun/2019  16:20:01
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Exe\Project.out
+#    Map file     =  
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\List\Project.map
+#    Command line =  
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\main.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\startup_stm32f303xe.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_adc.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_adc_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_can.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_comp.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_cortex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_crc.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_crc_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_dac.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_dac_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_dma.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_flash.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_flash_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_gpio.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_i2c.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_i2c_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_i2s.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_i2s_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_irda.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_iwdg.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_msp.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_nand.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_nor.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_opamp.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_opamp_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_pccard.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_pcd.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_pcd_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_pwr.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_pwr_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_rcc.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_rcc_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_rtc.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_rtc_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_smartcard.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_smartcard_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_smbus.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_spi.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_sram.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_tim.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_tim_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_tsc.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_uart.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_uart_ex.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_usart.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_hal_wwdg.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_it.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_ll_fmc.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\stm32f3xx_nucleo.o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj\system_stm32f3xx.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Exe\Project.out
+#        --map
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\List\Project.map
+#        --config
+#        C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\stm32f303xe_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                     0x194
+  .intvec            ro code  0x08000000  0x194  startup_stm32f303xe.o [1]
+                            - 0x08000194  0x194
+
+"P1":                                     0xf20
+  .text              ro code  0x08000194  0xa20  stm32f3xx_hal_rcc.o [1]
+  .text              ro code  0x08000bb4   0x8c  stm32f3xx_hal.o [1]
+  .text              ro code  0x08000c40  0x104  stm32f3xx_hal_cortex.o [1]
+  .text              ro code  0x08000d44    0x2  stm32f3xx_hal_msp.o [1]
+  .text              ro code  0x08000d48   0x98  system_stm32f3xx.o [1]
+  .text              ro code  0x08000de0   0x66  main.o [1]
+  .text              ro code  0x08000e46   0x2c  copy_init3.o [5]
+  .text              ro code  0x08000e74   0x28  data_init.o [5]
+  .text              ro code  0x08000e9c   0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08000ec0   0x14  - Linker created -
+  .text              ro code  0x08000ed4   0x1a  cmain.o [5]
+  .text              ro code  0x08000eee    0x4  low_level_init.o [3]
+  .text              ro code  0x08000ef2    0x4  exit.o [3]
+  .text              ro code  0x08000ef8    0xa  cexit.o [5]
+  .text              ro code  0x08000f04   0x14  exit.o [6]
+  .text              ro code  0x08000f18   0x18  stm32f3xx_it.o [1]
+  .rodata            const    0x08000f30   0x10  stm32f3xx_hal_rcc.o [1]
+  .rodata            const    0x08000f40   0x10  stm32f3xx_hal_rcc.o [1]
+  .rodata            const    0x08000f50   0x10  system_stm32f3xx.o [1]
+  .text              ro code  0x08000f60   0x10  startup_stm32f303xe.o [1]
+  Initializer bytes  const    0x08000f70   0x10  <for P2-1>
+  .text              ro code  0x08000f80    0xc  cstartup_M.o [5]
+  .text              ro code  0x08000f8c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000f90    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000f94    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000f98    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000f9c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fa0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fa4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fa8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fac    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fb0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fb4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fb8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fbc    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fc0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fc4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fc8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fcc    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fd0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fd4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fd8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fdc    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fe0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fe4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fe8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000fec    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000ff0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000ff4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000ff8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08000ffc    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001000    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001004    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001008    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800100c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001010    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001014    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001018    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800101c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001020    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001024    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001028    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800102c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001030    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001034    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001038    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800103c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001040    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001044    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001048    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800104c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001050    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001054    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001058    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800105c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001060    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001064    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001068    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800106c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001070    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001074    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001078    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800107c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001080    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001084    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001088    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800108c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001090    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001094    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x08001098    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x0800109c    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x080010a0    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x080010a4    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x080010a8    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x080010ac    0x4  startup_stm32f303xe.o [1]
+  .text              ro code  0x080010b0    0x4  startup_stm32f303xe.o [1]
+  .rodata            const    0x080010b4    0x0  copy_init3.o [5]
+                            - 0x080010b4  0xf20
+
+"P2", part 1 of 2:                         0x10
+  P2-1                        0x20000000    0xd  <Init block>
+    .data            inited   0x20000000    0x4  stm32f3xx_hal.o [1]
+    .data            inited   0x20000004    0x4  system_stm32f3xx.o [1]
+    .bss             inited   0x20000008    0x4  stm32f3xx_hal.o [1]
+    .data            inited   0x2000000c    0x1  stm32f3xx_hal.o [1]
+                            - 0x2000000d    0xd
+
+"P2", part 2 of 2:                        0x400
+  CSTACK                      0x20000010  0x400  <Block>
+    CSTACK           uninit   0x20000010  0x400  <Block tail>
+                            - 0x20000410  0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10 (123% of destination):
+          0x08000f70  0x10
+    1 destination range, total size 0xd:
+          0x20000000   0xd
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj: [1]
+    main.o                      102
+    startup_stm32f303xe.o       716
+    stm32f3xx_hal.o             140        9        9
+    stm32f3xx_hal_cortex.o      260
+    stm32f3xx_hal_msp.o           2
+    stm32f3xx_hal_rcc.o       2 592       32
+    stm32f3xx_it.o               24
+    system_stm32f3xx.o          152       20        4
+    -------------------------------------------------
+    Total:                    3 988       61       13
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [4]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [5]
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    -------------------------------------------------
+    Total:                      132
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          8        2
+    Linker created                        23    1 024
+-----------------------------------------------------
+    Grand Total:              4 190       86    1 037
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08000ec0          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08000ed4          --   Gb  - Linker created -
+?main                   0x08000ed5         Code  Gb  cmain.o [5]
+AHBPrescTable           0x08000f50   0x10  Data  Gb  system_stm32f3xx.o [1]
+BusFault_Handler        0x08000f1f    0x2  Code  Gb  stm32f3xx_it.o [1]
+CSTACK$$Base            0x20000010          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000410          --   Gb  - Linker created -
+DebugMon_Handler        0x08000f25    0x2  Code  Gb  stm32f3xx_it.o [1]
+Error_Handler           0x08000e45    0x2  Code  Lc  main.o [1]
+HAL_GetTick             0x08000c27    0x6  Code  Wk  stm32f3xx_hal.o [1]
+HAL_IncTick             0x08000c17   0x10  Code  Wk  stm32f3xx_hal.o [1]
+HAL_Init                0x08000bb5   0x22  Code  Gb  stm32f3xx_hal.o [1]
+HAL_InitTick            0x08000bd7   0x40  Code  Wk  stm32f3xx_hal.o [1]
+HAL_MspInit             0x08000d45    0x2  Code  Gb  stm32f3xx_hal_msp.o [1]
+HAL_NVIC_SetPriority    0x08000cfd   0x22  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08000cf5    0x8  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x08000915  0x1fc  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08000b11   0x68  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000195  0x780  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_SYSTICK_Config      0x08000d1f    0x8  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HardFault_Handler       0x08000f1b    0x2  Code  Gb  stm32f3xx_it.o [1]
+MemManage_Handler       0x08000f1d    0x2  Code  Gb  stm32f3xx_it.o [1]
+NMI_Handler             0x08000f19    0x2  Code  Gb  stm32f3xx_it.o [1]
+NVIC_EncodePriority     0x08000c89   0x3e  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x08000c5d    0xa  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08000c67   0x22  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x08000c41   0x1c  Code  Lc  stm32f3xx_hal_cortex.o [1]
+PendSV_Handler          0x08000f27    0x2  Code  Gb  stm32f3xx_it.o [1]
+Region$$Table$$Base     0x08000ec0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08000ed4          --   Gb  - Linker created -
+SVC_Handler             0x08000f23    0x2  Code  Gb  stm32f3xx_it.o [1]
+SysTick_Config          0x08000cc7   0x2e  Code  Lc  stm32f3xx_hal_cortex.o [1]
+SysTick_Handler         0x08000f29    0x8  Code  Gb  stm32f3xx_it.o [1]
+SystemClock_Config      0x08000ded   0x58  Code  Gb  main.o [1]
+SystemCoreClock         0x20000004    0x4  Data  Gb  system_stm32f3xx.o [1]
+SystemInit              0x08000d49   0x70  Code  Gb  system_stm32f3xx.o [1]
+UsageFault_Handler      0x08000f21    0x2  Code  Gb  stm32f3xx_it.o [1]
+__cmain                 0x08000ed5         Code  Gb  cmain.o [5]
+__exit                  0x08000f05   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x08000e47   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08000e75   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x08000e9d         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x08000f81         Code  Gb  cstartup_M.o [5]
+__low_level_init        0x08000eef    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f303xe.o [1]
+_call_main              0x08000ee1         Code  Gb  cmain.o [5]
+_exit                   0x08000ef9         Code  Gb  cexit.o [5]
+_main                   0x08000eeb         Code  Gb  cmain.o [5]
+aPLLMULFactorTable      0x08000f30   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+aPredivFactorTable      0x08000f40   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+exit                    0x08000ef3    0x4  Code  Gb  exit.o [3]
+main                    0x08000de1    0xc  Code  Gb  main.o [1]
+uwTick                  0x20000008    0x4  Data  Gb  stm32f3xx_hal.o [1]
+uwTickFreq              0x2000000c    0x1  Data  Gb  stm32f3xx_hal.o [1]
+uwTickPrio              0x20000000    0x4  Data  Gb  stm32f3xx_hal.o [1]
+
+
+[1] = C:\Users\tsc\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE-Nucleo\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  4 190 bytes of readonly  code memory
+     86 bytes of readonly  data memory
+  1 037 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

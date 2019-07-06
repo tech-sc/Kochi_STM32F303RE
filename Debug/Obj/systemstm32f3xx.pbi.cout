@@ -2,7 +2,7 @@
 -std=c99
 -ferror-limit=100
 -I
-C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\STM32F303_HAL_Driver\Inc
+C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Drivers\STM32F3xx_HAL_Driver\Inc
 -I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\CMSIS\Device\ST\STM32F303\Include
 -I
@@ -14,14 +14,14 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c
 -I
-C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\STM32F303_HAL_Driver\Inc
+C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Drivers\STM32F3xx_HAL_Driver\Inc
 -I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\CMSIS\Device\ST\STM32F303\Include
 -I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\CMSIS\Include
 -I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers
--DSTM32F303RE=1
+-DSTM32F303xE=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
