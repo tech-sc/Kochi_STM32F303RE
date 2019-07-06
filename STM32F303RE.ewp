@@ -310,10 +310,11 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Drivers\STM32F3xx_HAL_Driver\Inc</state>
-          <state>C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\CMSIS\Device\ST\STM32F303\Include</state>
-          <state>C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers\CMSIS\Include</state>
-          <state>C:\Users\tsc\Documents\Kochi_STM32F303RE\CubeF3Drivers</state>
+          <state>$PROJ_DIR$\STM32Cube_FW_F3_V1.10.0\Drivers\STM32F3xx_HAL_Driver\Inc</state>
+          <state>$PROJ_DIR$\STM32Cube_FW_F3_V1.10.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include</state>
+          <state>$PROJ_DIR$\STM32Cube_FW_F3_V1.10.0\Drivers\CMSIS\Include</state>
+          <state>$PROJ_DIR$\STM32Cube_FW_F3_V1.10.0\Drivers</state>
+          <state>C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\Inc</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1971,7 +1972,7 @@
       <name>$PROJ_DIR$\startup_stm32f303xe.s</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\systemstm32f3xx.c</name>
+      <name>$PROJ_DIR$\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\Src\system_stm32f3xx.c</name>
     </file>
   </group>
 </project>

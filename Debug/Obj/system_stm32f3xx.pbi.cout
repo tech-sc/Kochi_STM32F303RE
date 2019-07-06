@@ -1,4 +1,4 @@
-"C:\Users\tsc\Documents\Kochi_STM32F303RE\stm32f3xx_hal_rcc.c"
+"C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\Src\system_stm32f3xx.c"
 -std=c99
 -ferror-limit=100
 -I

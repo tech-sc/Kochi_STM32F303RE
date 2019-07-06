@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\Downloads\en.stm32cubef3\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\EWARM\STM32F303RE.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\STM32F303RE.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
