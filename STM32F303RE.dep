@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1703184830</fileChecksum>
+  <fileChecksum>3828496830</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -96,8 +96,31 @@
       </outputs>
     </file>
     <forcedrebuild>
+      <name>$PROJ_DIR$\stm32f3xx_hal_pwr.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\stm32f3xx_hal_rcc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\systemstm32f3xx.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\startup_stm32f303xe.s</name>
+      <tool>AARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
     </forcedrebuild>
   </configuration>
   <configuration>
