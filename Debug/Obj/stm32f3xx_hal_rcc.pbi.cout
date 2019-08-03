@@ -12,6 +12,16 @@ C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Drivers
 -I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\Inc
 -I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS\portable\ARM_CM4F
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS\portable
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS\include
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c
@@ -25,6 +35,16 @@ C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Drivers\CMSIS\I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Drivers
 -I
 C:\Users\tsc\Documents\Kochi_STM32F303RE\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\Inc
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS\portable\ARM_CM4F
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS\portable
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS\include
+-I
+C:\Users\tsc\Documents\Kochi_STM32F303RE\OS\FreeRTOS
 -DSTM32F303xE=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff

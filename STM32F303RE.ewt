@@ -2145,6 +2145,48 @@
       <name>$PROJ_DIR$\STM32Cube_FW_F3_V1.10.0\Projects\STM32F303RE-Nucleo\Templates\Src\system_stm32f3xx.c</name>
     </file>
   </group>
+  <group>
+    <name>OS</name>
+    <group>
+      <name>FreeRTOS</name>
+      <group>
+        <name>Portable</name>
+        <group>
+          <name>ARM_CM4F</name>
+          <file>
+            <name>$PROJ_DIR$\OS\FreeRTOS\portable\ARM_CM4F\port.c</name>
+          </file>
+          <file>
+            <name>$PROJ_DIR$\OS\FreeRTOS\portable\ARM_CM4F\portasm.s</name>
+          </file>
+          <file>
+            <name>$PROJ_DIR$\OS\FreeRTOS\portable\ARM_CM4F\portmacro.h</name>
+          </file>
+        </group>
+        <group>
+          <name>MemMang</name>
+          <file>
+            <name>$PROJ_DIR$\OS\FreeRTOS\portable\MemMang\heap_1.c</name>
+          </file>
+        </group>
+      </group>
+      <file>
+        <name>$PROJ_DIR$\OS\FreeRTOS\list.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\OS\FreeRTOS\queue.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\OS\FreeRTOS\tasks.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\OS\FreeRTOS\timers.c</name>
+      </file>
+    </group>
+    <file>
+      <name>$PROJ_DIR$\OS\FreeRTOS\FreeRTOSConfig.h</name>
+    </file>
+  </group>
 </project>
 
 
