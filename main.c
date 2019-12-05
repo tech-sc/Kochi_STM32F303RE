@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include "stm32f3xx.h"
 #include "BSP_SW.h"
+#include "FreeRTOS.h"
 #include "task.h"
 
 
@@ -92,17 +93,17 @@ static void MX_GPIO_Init(void)
     * @param なし.
     * @return なし.
     */
-    inline void ExtSW_Handler(void)
+    inline void ExtSW_Handler(void);
     {
 	/* EXTI line interrupt detected */
 	if( __HAL_GPIO_EXTI_GET_IT(SW_Pin) ) {
 		__HAL_GPIO_EXTI_CLEAR_IT( SW_Pin );
-		if( HAL_GPIO_ReadPin( SW_Port, SW_Pin ) == GPIO_PIN_SET ) {
+		if( HAL_GPIO_ReadPin( SW_GPIO_Port, SW_Pin ) == GPIO_PIN_SET ) {
                         //TODO inactive時の処理
-			//ExtSW_inactiveHandler( ExtSW1 );
+			ExtSW_inactiveHandler(ExtSW1);
 		} else {
                         //TODO active時の処理
-			//ExtSW_activeHandler( ExtSW1 );
+			ExtSW_activeHandler(ExtSW1);
 		}
 	}
 }

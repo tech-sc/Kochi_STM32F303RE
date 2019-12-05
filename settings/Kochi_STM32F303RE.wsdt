@@ -20,13 +20,13 @@
           
           
           
-        <Column0>213</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>230</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
     <Debug-Log><ColumnWidth0>16</ColumnWidth0><ColumnWidth1>1311</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>403</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>604</ColumnWidth2><ColumnWidth3>268</ColumnWidth3></Find-in-Files></Static>
     <Windows>
       
       
-    <Wnd3>
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-26951-24529</Identity>
@@ -36,7 +36,7 @@
           </Tab>
         <Tab><Identity>TabID-31376-32650</Identity><TabName>&#x30C7;&#x30D0;&#x30C3;&#x30B0;&#x30eD;&#x30B0;</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-16127-8915</Identity><TabName>&#x30D5;&#x30A1;&#x30A4;&#x30eB;&#x304B;&#x3089;&#x691C;&#x7D22;</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd2>
         <Tabs>
           <Tab>
             <Identity>TabID-4932-24532</Identity>
@@ -44,24 +44,24 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>STM32F303RE</ExpandedNode><ExpandedNode>STM32F303RE/APL</ExpandedNode><ExpandedNode>STM32F303RE/APL/Driver</ExpandedNode><ExpandedNode>STM32F303RE/Boot</ExpandedNode><ExpandedNode>STM32F303RE/OS</ExpandedNode><ExpandedNode>STM32F303RE/OS/FreeRTOS</ExpandedNode><ExpandedNode>STM32F303RE/OS/FreeRTOS/Portable</ExpandedNode><ExpandedNode>STM32F303RE/Output</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>STM32F303RE</ExpandedNode><ExpandedNode>STM32F303RE/APL</ExpandedNode><ExpandedNode>STM32F303RE/APL/Driver</ExpandedNode><ExpandedNode>STM32F303RE/Boot</ExpandedNode><ExpandedNode>STM32F303RE/CubeDrivers</ExpandedNode><ExpandedNode>STM32F303RE/CubeDrivers/CMSIS</ExpandedNode><ExpandedNode>STM32F303RE/CubeDrivers/CMSIS/Device</ExpandedNode><ExpandedNode>STM32F303RE/CubeDrivers/CMSIS/include</ExpandedNode><ExpandedNode>STM32F303RE/CubeDrivers/HAL_Driver</ExpandedNode><ExpandedNode>STM32F303RE/CubeDrivers/HAL_Driver/src</ExpandedNode><ExpandedNode>STM32F303RE/OS</ExpandedNode><ExpandedNode>STM32F303RE/OS/FreeRTOS</ExpandedNode><ExpandedNode>STM32F303RE/OS/FreeRTOS/Portable</ExpandedNode><ExpandedNode>STM32F303RE/Output</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd4></Windows>
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP_SW.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>5</YPos2><SelStart2>766</SelStart2><SelEnd2>766</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>78</YPos2><SelStart2>3265</SelStart2><SelEnd2>3265</SelEnd2></Tab><ActiveTab>1</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP_SW.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>68</SelStart2><SelEnd2>68</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>60</YPos2><SelStart2>2841</SelStart2><SelEnd2>2841</SelEnd2></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP_SW.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>363</SelStart2><SelEnd2>363</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-027D21E8><key>iaridepm.jpn1</key></Toolbar-027D21E8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>442</Bottom><Right>304</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291971</sizeHorzCY><sizeVertCX>224012</sizeVertCX><sizeVertCY>648175</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>291971</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>291971</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-04F6C320><key>iaridepm.jpn1</key></Toolbar-04F6C320></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>349</Bottom><Right>304</Right><x>-2</x><y>-2</y><xscreen>271</xscreen><yscreen>293</yscreen><sizeHorzCX>198389</sizeHorzCX><sizeHorzCY>427737</sizeHorzCY><sizeVertCX>224012</sizeVertCX><sizeVertCY>512409</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>291</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>293</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>427737</sizeHorzCY><sizeVertCX>198389</sizeVertCX><sizeVertCY>427737</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
