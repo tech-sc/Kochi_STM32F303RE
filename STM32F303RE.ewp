@@ -1941,6 +1941,18 @@
       <file>
         <name>$PROJ_DIR$\BSP_SW.h</name>
       </file>
+      <file>
+        <name>$PROJ_DIR$\ExtLED.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ExtLED.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ExtSW.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ExtSW.h</name>
+      </file>
     </group>
   </group>
   <group>

@@ -17,6 +17,7 @@
 #include "BSP_SW.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "ExtSW.h"
 
 
 /************************************************************************************//**
