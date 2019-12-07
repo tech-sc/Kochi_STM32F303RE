@@ -58,12 +58,16 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+  
+  HAL_GPIO_WritePin(GPIOC, LED00_Pin|LED01_Pin|LED02_Pin|LED03_Pin, 1);
 
   /*Configure GPIO pin : SW_Pin */
   GPIO_InitStruct.Pin = SW_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(SW_GPIO_Port, &GPIO_InitStruct);
+  
+  HAL_GPIO_TogglePin(GPIOA, SW_Pin);
 
   /*Configure GPIO pin : LD2_Pin */
   GPIO_InitStruct.Pin = LD2_Pin;
@@ -74,40 +78,17 @@ static void MX_GPIO_Init(void)
 
   // 割り込みの許可
   /* EXTI4_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(EXTI4_IRQn, 0, 0); // 割込み優先度設定（省略可能）
-  HAL_NVIC_EnableIRQ(EXTI4_IRQn); // 割込み許可設定 
+  HAL_NVIC_SetPriority(EXTI4_IRQn, 5, 0); // 割込み優先度設定（省略可能）
+  HAL_NVIC_EnableIRQ(EXTI4_IRQn); // 割込み許可設定
 
 }
 
   // 割り込みの中身
-  void EXTI4_IRQHandler(void)
+void EXTI4_IRQHandler(void)
 {
- if(__HAL_GPIO_EXTI_GET_IT(B1_Pin) != 0) // 対象ポート判定
+ if(__HAL_GPIO_EXTI_GET_IT(SW_Pin) != 0) // 対象ポート判定
  {
- __HAL_GPIO_EXTI_CLEAR_IT(B1_Pin); // 割込み要因クリア
- 
-  //TODO LED点灯、消灯のトグル処理
-  /**
-    * @brief SW割込み処理.
-    *
-    * 立下り(active)または立上がり(inactive)エッジ割込みを処理する.
-    * @param なし.
-    * @return なし.
-    */
-    inline void ExtSW_Handler(void);
-    {
-	/* EXTI line interrupt detected */
-	if( __HAL_GPIO_EXTI_GET_IT(SW_Pin) ) {
-		__HAL_GPIO_EXTI_CLEAR_IT( SW_Pin );
-		if( HAL_GPIO_ReadPin( SW_GPIO_Port, SW_Pin ) == GPIO_PIN_SET ) {
-                        //TODO inactive時の処理
-			ExtSW_inactiveHandler(ExtSW1);
-		} else {
-                        //TODO active時の処理
-			ExtSW_activeHandler(ExtSW1);
-		}
-	}
-}
- 
+ __HAL_GPIO_EXTI_CLEAR_IT(SW_Pin); // 割込み要因クリア
  }
+ BSPSW_countLED();
 }
